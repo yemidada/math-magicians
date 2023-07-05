@@ -32,6 +32,7 @@ function CalculatorButtons(props) {
       </div>
       <div className="calculator-buttons-bottom">
         <button onClick={() => onClickHandler('0')} className="action" type="button">0</button>
+        <button onClick={() => onClickHandler('.')} className="action" type="button">.</button>
         <button onClick={() => onClickHandler('=')} className="effect" type="button">=</button>
       </div>
 
