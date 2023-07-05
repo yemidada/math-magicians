@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Math Magicians: setup</b></h3>
+  <h3><b>Math magicians: components</b></h3>
 
 </div>
 
@@ -25,7 +25,7 @@
 - [📝 License](#license)
 
 
-# 📖 Math Magicians: setup <a name="about-project"></a>
+# 📖 Math magicians: components <a name="about-project"></a>
 
 **This is  Math magician application built in HTML, CSS, React. It ia a Single Page App (SPA) that that allows users to run a mathematical computation**
 
@@ -57,6 +57,7 @@ The various stacks used for the project includes the following
 
 - **Set up a React app.**
 - **Configurated react linters**
+- **React component that will hold the core functionality: a calculator**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

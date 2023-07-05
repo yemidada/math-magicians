@@ -1,3 +1,13 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
 body {
   margin: 0;
   font-family:
@@ -12,16 +22,60 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #333;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.calculator {
+  width: 400px;
+}
+
+.calculator-screen {
+  background-color: #858693;
+  color: #fff;
+  width: 100%;
+  text-align: right;
+}
+
+.calculator-screen .text {
+  padding: 0 10px;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.calculator-buttons-bottom {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.action {
+  background-color: #e0e0e0;
+}
+
+.effect {
+  background-color: #e5934f;
+}
+
+.calculator-screen,
+.action,
+.effect {
+  border: 1px solid #d1d1d1;
+  padding: 20px 0;
+}
+
+.action,
+.effect {
+  cursor: pointer;
+}
+
+.action:hover {
+  background-color: #ccc;
+}
+
+.effect:hover {
+  background-color: #d39460;
 }
