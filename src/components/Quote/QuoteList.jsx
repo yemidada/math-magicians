@@ -24,13 +24,11 @@ function QuoteList(props) {
 }
 
 QuoteList.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  data: PropTypes.array,
+  data: PropTypes.arrayOf(PropTypes.shape),
 };
 
 QuoteList.defaultProps = {
-  // eslint-disable-next-line react/forbid-prop-types
-  data: PropTypes.array,
+  data: PropTypes.arrayOf(PropTypes.shape),
 };
 
 export default QuoteList;
