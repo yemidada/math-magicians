@@ -1,8 +1,12 @@
 import Calcultor from './components/Calculator';
+import Quote from './components/Quote/index';
 
 function App() {
   return (
-    <Calcultor />
+    <div className="main">
+      <Quote />
+      <Calcultor />
+    </div>
   );
 }
 
