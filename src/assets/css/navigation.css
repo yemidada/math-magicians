@@ -1,0 +1,38 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.navigation .logo {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .logo img {
+  height: 40px;
+}
+
+.navigation .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.navigation .link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation .link .active {
+  font-weight: bold;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 8px;
+}
