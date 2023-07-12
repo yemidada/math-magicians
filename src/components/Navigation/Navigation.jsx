@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { NavLink } from 'react-router-dom';
 import '../../assets/css/navigation.css';
 import Logo from '../../assets/images/logo.png';

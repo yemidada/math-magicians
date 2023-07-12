@@ -1,5 +1,4 @@
 import { Suspense } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Calculator from './components/Calculator/Calculator';
 import Quote from './components/Quote/Quote';
