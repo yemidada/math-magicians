@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Math magicians: components</b></h3>
+  <h3><b>Math magicians: events</b></h3>
 
 </div>
 
@@ -58,6 +58,7 @@ The various stacks used for the project includes the following
 - **Set up a React app.**
 - **Configurated react linters**
 - **React component that will hold the core functionality: a calculator**
+- **Understand the mechanism of lifting state up**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

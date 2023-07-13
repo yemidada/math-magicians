@@ -1,37 +1,23 @@
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
+import CalculatorScreen from './CalculatorScreen';
+import CalculatorButtons from './Buttons';
+
 function Calculator() {
+  const [store, setStore] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const onClickHandler = (value) => {
+    setStore(calculate(store, value));
+  };
+
   return (
     <div className="calculator">
-      <div className="calculator-screen">
-        <div className="text">0</div>
-      </div>
-      <div className="calculator-buttons">
-        <button className="action" type="button">AC</button>
-        <button className="action" type="button">+/-</button>
-        <button className="action" type="button">%</button>
-        <button className="effect" type="button">÷</button>
-      </div>
-      <div className="calculator-buttons">
-        <button className="action" type="button">7</button>
-        <button className="action" type="button">8</button>
-        <button className="action" type="button">9</button>
-        <button className="effect" type="button">×</button>
-      </div>
-      <div className="calculator-buttons">
-        <button className="action" type="button">4</button>
-        <button className="action" type="button">5</button>
-        <button className="action" type="button">6</button>
-        <button className="effect" type="button">-</button>
-      </div>
-      <div className="calculator-buttons">
-        <button className="action" type="button">1</button>
-        <button className="action" type="button">2</button>
-        <button className="action" type="button">3</button>
-        <button className="effect" type="button">+</button>
-      </div>
-      <div className="calculator-buttons-bottom">
-        <button className="action" type="button">0</button>
-        <button className="effect" type="button">=</button>
-      </div>
+      <CalculatorScreen next={store.next} operation={store.operation} total={store.total} />
+      <CalculatorButtons onClickHandler={onClickHandler} />
     </div>
   );
 }
