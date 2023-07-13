@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 import Loader from './Loader';
 import QuoteList from './QuoteList';
+import '../../assets/css/quote.css';
 
 function Quote() {
   const [loading, setLoading] = useState(false);
@@ -31,9 +32,11 @@ function Quote() {
   }, []);
 
   return (
-    <div className="quote">
-      <h4>{error}</h4>
-      {loading ? <Loader /> : <QuoteList data={data} />}
+    <div className="container-quote">
+      <div className="quote">
+        <h4>{error}</h4>
+        {loading ? <Loader /> : <QuoteList data={data} />}
+      </div>
     </div>
   );
 }

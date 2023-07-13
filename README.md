@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Math magicians: fetch data from API</b></h3>
+  <h3><b>Math magicians: full website</b></h3>
 
 </div>
 
@@ -25,7 +25,7 @@
 - [📝 License](#license)
 
 
-# 📖 Math magicians: fetch data from API <a name="about-project"></a>
+# 📖 Math magicians: full website <a name="about-project"></a>
 
 **This is  Math magician application built in HTML, CSS, React. It ia a Single Page App (SPA) that that allows users to run a mathematical computation**
 
@@ -62,6 +62,8 @@ The various stacks used for the project includes the following
 - **Use the correct React hook when fetching data**
 - **Connect to an API within a functional component**
 - **Show different UI outputs depending on the component state**
+- **Use React Router**
+- **Use styles in a React app**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
