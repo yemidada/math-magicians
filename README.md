@@ -13,6 +13,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
@@ -65,9 +66,9 @@ The various stacks used for the project includes the following
 - **Use React Router**
 - **Use styles in a React app**
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- [Live Demo Link](https://math-magicians-sngg.onrender.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
